@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for (( c=0; c<=$1; c++ ))
+nc=( RANDOM % 5 )
+
+for (( c=0; c<=$nc; c++ ))
 do
    echo '' >> flag
    git add -A
