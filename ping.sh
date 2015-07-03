@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nc=$(( RANDOM % 5 ));
+nc=$(( RANDOM % 3 ));
 
 for (( c=0; c<=$nc; c++ ))
 do
